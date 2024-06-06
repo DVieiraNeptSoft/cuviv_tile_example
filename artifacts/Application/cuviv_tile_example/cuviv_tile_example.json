@@ -1,0 +1,240 @@
+{
+	"id": "df9de0e5-dd23-ef11-86d2-000d3ab928a5",
+	"createdAt": "2024-06-06T08:23:36.233Z",
+	"createdBy": "daniel.vieira@neptune-software.com",
+	"objects": [
+		{
+			"fieldNo": "6ec31290-31c3-410b-f4dd-ff3a87fc011f",
+			"fieldName": "FlexBox",
+			"fieldParent": 0,
+			"fieldType": "sap.m.FlexBox",
+			"script": "",
+			"customComponent": false,
+			"request": [],
+			"response": [],
+			"attributes": [],
+			"data": [
+				{
+					"fieldNo": "38895fa1-f860-4316-f1e3-e19f039a32cc",
+					"fieldName": "HBox",
+					"fieldParent": "6ec31290-31c3-410b-f4dd-ff3a87fc011f",
+					"fieldType": "sap.m.HBox",
+					"script": "",
+					"customComponent": false,
+					"request": [],
+					"response": [],
+					"attributes": [
+						{
+							"attribute": "styleClassMargin",
+							"grouping": "Properties",
+							"value": "sapUiSmallMargin",
+							"script": "",
+							"translation": []
+						}
+					],
+					"data": [
+						{
+							"fieldNo": "42b65409-dc86-4d47-d37f-bb17d85cddf1",
+							"fieldName": "Card",
+							"fieldParent": "38895fa1-f860-4316-f1e3-e19f039a32cc",
+							"fieldType": "sap.f.Card",
+							"script": "",
+							"customComponent": false,
+							"request": [],
+							"response": [],
+							"attributes": [
+								{
+									"attribute": "width",
+									"grouping": "Properties",
+									"value": "200px",
+									"script": "",
+									"translation": []
+								},
+								{
+									"attribute": "height",
+									"grouping": "Properties",
+									"value": "200px",
+									"script": "",
+									"translation": []
+								}
+							],
+							"data": [
+								{
+									"fieldNo": "59479dd5-1fb7-47ce-d533-d3df4cecaff9",
+									"fieldName": "NumericHeader",
+									"fieldParent": "42b65409-dc86-4d47-d37f-bb17d85cddf1",
+									"fieldType": "sap.f.cards.NumericHeader",
+									"script": "",
+									"customComponent": false,
+									"request": [],
+									"response": [],
+									"attributes": [
+										{
+											"attribute": "title",
+											"grouping": "Properties",
+											"value": "Card 1 Test",
+											"script": "",
+											"translation": []
+										},
+										{
+											"attribute": "subtitle",
+											"grouping": "Properties",
+											"value": "Click me to open an app",
+											"script": "",
+											"translation": []
+										},
+										{
+											"attribute": "press",
+											"grouping": "Events",
+											"value": "AppCache.Load(\"CUVIV_APP_EXAMPLE\");",
+											"script": "AppCache.Load(\"CUVIV_APP_EXAMPLE\");",
+											"language": "javascript",
+											"translation": []
+										}
+									],
+									"data": []
+								}
+							]
+						}
+					]
+				},
+				{
+					"fieldNo": "f787bd16-da3a-45a8-a171-abc72fea45ce",
+					"fieldName": "HBox1",
+					"fieldParent": "6ec31290-31c3-410b-f4dd-ff3a87fc011f",
+					"fieldType": "sap.m.HBox",
+					"script": "",
+					"customComponent": false,
+					"request": [],
+					"response": [],
+					"attributes": [
+						{
+							"attribute": "styleClassMargin",
+							"grouping": "Properties",
+							"value": "sapUiSmallMargin",
+							"script": "",
+							"translation": []
+						}
+					],
+					"data": [
+						{
+							"fieldNo": "e223e223-f79a-43e3-864a-78cbcd88ae8b",
+							"fieldName": "Card2",
+							"fieldParent": "f787bd16-da3a-45a8-a171-abc72fea45ce",
+							"fieldType": "sap.f.Card",
+							"script": "",
+							"customComponent": false,
+							"request": [],
+							"response": [],
+							"attributes": [
+								{
+									"attribute": "width",
+									"grouping": "Properties",
+									"value": "200px",
+									"script": "",
+									"translation": []
+								},
+								{
+									"attribute": "height",
+									"grouping": "Properties",
+									"value": "200px",
+									"script": "",
+									"translation": []
+								}
+							],
+							"data": [
+								{
+									"fieldNo": "97a4cc0a-cdb8-4f2f-d54f-a0adb1bd3c0f",
+									"fieldName": "NumericHeader2",
+									"fieldParent": "e223e223-f79a-43e3-864a-78cbcd88ae8b",
+									"fieldType": "sap.f.cards.NumericHeader",
+									"script": "",
+									"customComponent": false,
+									"request": [],
+									"response": [],
+									"attributes": [
+										{
+											"attribute": "title",
+											"grouping": "Properties",
+											"value": "Card 2 Test",
+											"script": "",
+											"translation": []
+										},
+										{
+											"attribute": "subtitle",
+											"grouping": "Properties",
+											"value": "Click me to open an app",
+											"script": "",
+											"translation": []
+										},
+										{
+											"attribute": "press",
+											"grouping": "Events",
+											"value": "AppCache.Load(\"CUVIV_APP2_EXAMPLE\");",
+											"script": "AppCache.Load(\"CUVIV_APP2_EXAMPLE\");",
+											"language": "javascript",
+											"translation": []
+										}
+									],
+									"data": []
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"fieldNo": 99999,
+			"data": []
+		},
+		{
+			"fieldNo": 99998,
+			"data": []
+		}
+	],
+	"componentInterface": [],
+	"ver": "24.06.06.0848",
+	"application": "cuviv_tile_example",
+	"title": "",
+	"description": "",
+	"enableFileStorage": false,
+	"enableManifest": false,
+	"enableStylesheet": false,
+	"enableObfuscate": false,
+	"onlyRunLaunchpad": false,
+	"disabled": false,
+	"loadLaunchpadCode": null,
+	"loadApplicationCode": null,
+	"appType": "A",
+	"ui5_m": true,
+	"ui5_f": true,
+	"ui5_table": false,
+	"ui5_tnt": false,
+	"ui5_uxap": false,
+	"ui5_chart": false,
+	"ui5_theme": "sap_horizon",
+	"ui5_version": "",
+	"ui5_language": null,
+	"ui5_url": "",
+	"cus_theme": "",
+	"css": "",
+	"compiledCss": null,
+	"header": "",
+	"manifest": "",
+	"globalScript": null,
+	"deleted": false,
+	"libHighchart": false,
+	"libHighmap": false,
+	"publicAccess": false,
+	"ui5_bootstrap": false,
+	"ui5_ionic": false,
+	"useV2AppHandler": false,
+	"compilerTarget": 3,
+	"tabWidth": null,
+	"printWidth": null,
+	"generateVersionOnActivation": false,
+	"activationHistoryCount": 0,
+	"apis": [],
+	"package": "f3690960-e123-ef11-86d2-000d3ab928a5"
+}

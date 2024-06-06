@@ -1,0 +1,87 @@
+{
+	"id": "f3690960-e123-ef11-86d2-000d3ab928a5",
+	"createdAt": "2024-06-06T08:47:16.770Z",
+	"createdBy": "daniel.vieira@neptune-software.com",
+	"git": {
+		"remote": "https://github.com/DVieiraNeptSoft/cuviv_tile_example"
+	},
+	"name": "cuviv_tile_example",
+	"description": null,
+	"ver": "24.06.06.0850",
+	"enableCICD": true,
+	"apps": [
+		{
+			"id": "df9de0e5-dd23-ef11-86d2-000d3ab928a5",
+			"application": "cuviv_tile_example",
+			"title": "",
+			"description": "",
+			"package": {
+				"id": "F3690960-E123-EF11-86D2-000D3AB928A5"
+			}
+		},
+		{
+			"id": "957f12f0-df23-ef11-86d2-000d3ab928a5",
+			"application": "cuviv_app2_example",
+			"title": "",
+			"description": "",
+			"package": {
+				"id": "F3690960-E123-EF11-86D2-000D3AB928A5"
+			}
+		},
+		{
+			"id": "6d2b57a8-df23-ef11-86d2-000d3ab928a5",
+			"application": "cuviv_app_example",
+			"title": "",
+			"description": "",
+			"package": {
+				"id": "F3690960-E123-EF11-86D2-000D3AB928A5"
+			}
+		}
+	],
+	"api": [],
+	"odataSource": [],
+	"odataMock": [],
+	"dictionary": [],
+	"jsclass": [],
+	"jsscript_group": [],
+	"theme": [],
+	"pdf": [],
+	"rulesengine": [],
+	"reports": [],
+	"api_authentication": [],
+	"api_group": [],
+	"tile": [
+		{
+			"id": "b821d65e-e023-ef11-86d2-000d3ab928a5",
+			"description": null,
+			"name": "cuviv_tile_example"
+		}
+	],
+	"category": [
+		{
+			"id": "2f902d70-e023-ef11-86d2-000d3ab928a5",
+			"description": null,
+			"name": "cuviv_tilegroup_example"
+		}
+	],
+	"launchpad": [
+		{
+			"id": "7c6db89d-e023-ef11-86d2-000d3ab928a5",
+			"name": "cuviv_tile_example_launchpad",
+			"description": null
+		}
+	],
+	"certificates": [],
+	"role": [],
+	"systems": [],
+	"doc": [],
+	"wf_notifications": [],
+	"department": [],
+	"script_scheduler": [],
+	"wf_definition": [],
+	"connector": [],
+	"events": [],
+	"code_snippets": [],
+	"wf_determination": [],
+	"wf_taskaction": []
+}
